@@ -1,0 +1,28 @@
+[package]
+name = "test_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.anyhow]
+workspace = true
+
+[dependencies.glam]
+workspace = true
+
+[dependencies.serde]
+workspace = true
+
+[dependencies.ron]
+workspace = true
+
+[dependencies.toml]
+workspace = true
+
+[dependencies.json]
+workspace = true
+
+[dependencies.hashbrown]
+workspace = true
+
+[dependencies.regex]
+workspace = true

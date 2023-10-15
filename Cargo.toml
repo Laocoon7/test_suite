@@ -1,0 +1,117 @@
+[package]
+name = "test_suite"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["./test_lib"]
+
+[dependencies.test_lib]
+path = "./test_lib"
+
+
+[workspace.dependencies.anyhow]
+version = "1"
+[dependencies.anyhow]
+workspace = true
+
+[workspace.dependencies.glam]
+version = "0.24"
+[dependencies.glam]
+workspace = true
+
+[workspace.dependencies.grid_2d]
+features = ["serialize"]
+version = "0.15"
+[dependencies.grid_2d]
+workspace = true
+
+[workspace.dependencies.coord_2d]
+features = ["serialize"]
+version = "0.3"
+[dependencies.coord_2d]
+workspace = true
+
+[workspace.dependencies.direction]
+version = "0.18"
+[dependencies.direction]
+workspace = true
+
+[workspace.dependencies.egui]
+version = "0.23"
+[dependencies.egui]
+workspace = true
+
+[workspace.dependencies.nannou]
+version = "0.18"
+[dependencies.nannou]
+workspace = true
+
+[workspace.dependencies.serde]
+features = ["derive", "rc", "alloc"]
+version = "1"
+[dependencies.serde]
+workspace = true
+
+[workspace.dependencies.ron]
+features = ["integer128"]
+version = "0.8"
+[dependencies.ron]
+workspace = true
+
+[workspace.dependencies.toml]
+version = "0.8"
+[dependencies.toml]
+workspace = true
+
+[workspace.dependencies.json]
+version = "0.12"
+[dependencies.json]
+workspace = true
+
+[workspace.dependencies.directories]
+version = "5"
+[dependencies.directories]
+workspace = true
+
+[workspace.dependencies.lazy_static]
+version = "1.4"
+[dependencies.lazy_static]
+workspace = true
+
+[workspace.dependencies.bitflags]
+version = "2.3"
+[dependencies.bitflags]
+workspace = true
+
+[workspace.dependencies.hashbrown]
+version = "0.14"
+[dependencies.hashbrown]
+workspace = true
+
+[workspace.dependencies.regex]
+version = "1.7"
+[dependencies.regex]
+workspace = true
+
+[workspace.dependencies.rand]
+version = "0.8"
+[dependencies.rand]
+workspace = true
+
+[workspace.dependencies.rand_pcg]
+features = ["serde1"]
+version = "0.3"
+[dependencies.rand_pcg]
+workspace = true
+
+[workspace.dependencies.noise]
+version = "0.8"
+[dependencies.noise]
+workspace = true
+
+[workspace.dependencies.xxhash-rust]
+features = ["xxh3", "const_xxh3"]
+version = "0.8"
+[dependencies.xxhash-rust]
+workspace = true
