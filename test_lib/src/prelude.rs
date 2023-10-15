@@ -6,6 +6,4 @@ pub use import::*;
 
 mod macros;
 
-pub use crate::files::*;
-pub use crate::time::*;
-pub use crate::{dump, error};
+pub use crate::{dump, error, files::*, time::*};

@@ -1,13 +1,10 @@
 use nannou::prelude::*;
 use test_lib::prelude::*;
 
+const INPUT_FILE: &str = "./assets/input.txt";
+const OUTPUT_FILE: &str = "./assets/output.txt";
 
-const INPUT_FILE: &str = "./files/input.txt";
-const OUTPUT_FILE: &str = "./files/output.txt";
-
-fn main() {
-    nannou::sketch(view).run();
-}
+fn main() { nannou::sketch(view).run(); }
 
 fn view(app: &App, frame: Frame) {
     let draw = app.draw();
